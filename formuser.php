@@ -11,13 +11,13 @@
         <h2>Input data siswa</h2>
         <form action="insertuser.php" method="POST">
             <label>ID</label>
-            <input type="text" name="id" placeholder="Ketik ID">
+            <input type="text" name="id" placeholder="Ketik ID" required>
             <label>Username</label>
-            <input type="text" name="username" placeholder="ketik username">
+            <input type="text" name="username" placeholder="ketik username" required>
             <label>Password</label>
-            <input type="text" name="pass" placeholder="ketik password">
+            <input type="text" name="pass" placeholder="ketik password" required>
             <label>Nama siswa</label>
-            <input type="text" name="nama" placeholder="ketik nama">
+            <input type="text" name="nama" placeholder="ketik nama" required>
             <label>Role</label>
             <select name="role">
                 <option value="Admin">Admin</option>
