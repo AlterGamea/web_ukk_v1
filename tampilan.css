@@ -1,0 +1,19 @@
+body{
+    background-color: aliceblue;
+}
+h2{
+    text-align: center;
+}
+.container{
+    justify-content: center;
+    display: flex;
+    width: fit-content;
+    margin: 0 auto;
+    border: 2px solid black;
+}
+table{
+    border-collapse: collapse;
+}
+th, td{
+    padding: 8px 16px;
+}

@@ -21,7 +21,7 @@
             <label>Role</label>
             <select name="role">
                 <option value="Admin">Admin</option>
-                <option value="Siswa">Siswa</option>
+                <option value="Murid">Siswa</option>
             </select><br><br>
             <button type="submit">Simpan</button>
             <button type="reset">reset</button>
